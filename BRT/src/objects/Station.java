@@ -1,9 +1,34 @@
 package objects;
 
-public class Station {
-
-	public Station() {
+public class Station implements Fillable
+{
+	public Station()
+	{
 		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int maxCapacity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int occupiedCapacity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int remainingCapacity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void addPerson() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
